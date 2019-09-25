@@ -90,7 +90,7 @@ class App extends Component {
                 <MDBIcon icon="at" size="2x" className="white-text" />
               </MDBCol>
               <MDBCol size="10">
-                <h5 className="font-weight-bold mb-3 white-text"><a className="white-text" href="a.a.levykin@gmail.com">a.a.levykin@gmail.com</a></h5>
+                <h5 className="font-weight-bold mb-3 white-text"><a className="white-text" href="mailto:a.a.levykin@gmail.com">a.a.levykin@gmail.com</a></h5>
               </MDBCol>
             </MDBRow>
             <MDBRow className="mb-3">
