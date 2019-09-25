@@ -1,0 +1,30 @@
+body {
+        background: linear-gradient(270deg, #e613b0, #2a13e6);
+        background-size: 400% 400%;
+
+        -webkit-animation: bg 14s ease infinite;
+        -moz-animation: bg 14s ease infinite;
+        animation: bg 14s ease infinite;
+    }
+
+    @-webkit-keyframes bg {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes bg {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes bg {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+.num{
+    background: url(numbers.svg);
+    background-position: right;
+    background-repeat: repeat-y;
+}
