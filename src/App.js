@@ -372,7 +372,7 @@ class App extends Component {
                 <MDBIcon icon="link" size="2x" className="white-text" />
               </MDBCol>
               <MDBCol size="11">
-                <h5 className="font-weight-bold mb-3 white-text"><a className="white-text" href="https://leadersofdigital.ru/event/63009/case/178873" rel="noopener noreferrer" target="_blank">Подробней о кейсе</a></h5>
+                <h5 className="font-weight-bold mb-3 white-text"><a className="white-text" href="https://2020.leadersofdigital.ru/event/63009/case/178873" rel="noopener noreferrer" target="_blank">Подробней о кейсе</a></h5>
               </MDBCol>
             </MDBRow>  
             <MDBRow className="mb-3">
@@ -415,7 +415,7 @@ class App extends Component {
                 <MDBIcon icon="link" size="2x" className="white-text" />
               </MDBCol>
               <MDBCol size="11">
-                <h5 className="font-weight-bold mb-3 white-text"><a className="white-text" href="https://leadersofdigital.ru/event/214763/case/239658" rel="noopener noreferrer" target="_blank">Подробней о кейсе</a></h5>
+                <h5 className="font-weight-bold mb-3 white-text"><a className="white-text" href="https://2020.leadersofdigital.ru/event/214763/case/239658" rel="noopener noreferrer" target="_blank">Подробней о кейсе</a></h5>
               </MDBCol>
             </MDBRow>    
             <MDBRow className="mb-3">
