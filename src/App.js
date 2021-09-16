@@ -16,6 +16,9 @@ import ekb_diplom from "./ekb_diplom.pdf";
 import final2020 from "./final2020.pdf";
 import final2020_diplom from "./final2020_diplom.pdf";
 import final2020_photo from "./final2020_photo.jpg";
+import fintech2021_certificate from "./fintech2021_certificate.pdf";
+import fintech2021 from "./fintech2021.pdf";
+import fintech_2021 from "./fintech_2021.jpg";
 
 const App = () => {
   return (
@@ -215,6 +218,71 @@ const App = () => {
             </h2>
           </MDBRow>
         </MDBAnimation>
+
+        <MDBAnimation reveal type="zoomIn">
+          <hr style={{ border: '1px solid white' }}></hr>
+          <MDBRow>
+          <MDBCol md="6">
+              <MDBView rounded>
+                <img src={fintech_2021} className="img-fluid z-depth-3" alt="" />
+              </MDBView>
+              <br></br>
+              <div className="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                <iframe title="final2020_presentation" width="560" height="315" src="https://www.youtube.com/embed/c73UUMhCvK0?controls=0&amp;start=5081s" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+            </MDBCol>            
+            <MDBCol md="6">
+              <MDBRow className="mb-3">
+                <h3 className="font-weight-bold mb-3 white-text">FINTECH, 2021</h3>
+              </MDBRow>
+              <MDBRow className="mb-3">
+                <MDBCol size="1">
+                  <MDBIcon icon="question-circle" size="2x" className="white-text" />
+                </MDBCol>
+                <MDBCol size="11">
+                  <h5 className="font-weight-bold mb-3 white-text">Кейс</h5>
+                </MDBCol>
+              </MDBRow>
+              <MDBRow className="mb-3">
+                <p className="white-text">Разработка платформы обеспечения платежей арендаторов на базе технологии распределенных реестров и смарт-контрактов
+                Международный аэропорт Шереметьево — входит в ТОП-10 аэропортов-хабов Европы, крупнейший российский аэропорт по объёмам пассажирских и грузовых перевозок.
+                Помимо авиаперевозок аэропорт обеспечивает комфортное пребывание пассажиров в терминалах до и после вылета. В Шереметьево представлено множество кафе, ресторанов, магазинов и даже гостиниц. Все эти услуги предоставляются пассажирам независимыми компаниями, которые арендуют у Шереметьево площади в терминалах.</p>
+              </MDBRow>
+              <MDBRow className="mb-3">
+                <MDBCol size="1">
+                  <MDBIcon icon="link" size="2x" className="white-text" />
+                </MDBCol>
+                <MDBCol size="11">
+                  <h5 className="font-weight-bold mb-3 white-text"><a className="white-text" href="https://leadersofdigital.ru/event/63007/case/846698" rel="noopener noreferrer" target="_blank">Подробней о кейсе</a></h5>
+                </MDBCol>
+              </MDBRow>
+              <MDBRow className="mb-3">
+                <MDBCol size="1">
+                  <MDBIcon icon="file-pdf" size="2x" className="white-text" />
+                </MDBCol>
+                <MDBCol size="11">
+                  <h5 className="font-weight-bold mb-3 white-text"><a className="white-text" href={fintech2021} rel="noopener noreferrer" target="_blank">Презентация</a></h5>
+                </MDBCol>
+              </MDBRow>
+              <MDBRow className="mb-3">
+                <MDBCol size="1">
+                  <MDBIcon icon="trophy" size="2x" className="white-text" />
+                </MDBCol>
+                <MDBCol size="11">
+                  <h5 className="font-weight-bold mb-3 white-text"><a className="white-text" href={fintech2021_certificate} rel="noopener noreferrer" target="_blank">Диплом</a></h5>
+                </MDBCol>
+              </MDBRow>
+              <MDBRow className="mb-3">
+                <MDBCol size="1">
+                  <MDBIcon fab icon="youtube" size="2x" className="white-text" />
+                </MDBCol>
+                <MDBCol size="11">
+                  <h5 className="font-weight-bold mb-3 white-text"><a className="white-text" href="https://youtu.be/0bz7vet8e2M" rel="noopener noreferrer" target="_blank">Демонстрация UI</a></h5>
+                </MDBCol>
+              </MDBRow>              
+            </MDBCol>
+          </MDBRow>
+        </MDBAnimation>        
 
         <MDBAnimation reveal type="zoomIn">
           <hr style={{ border: '1px solid white' }}></hr>

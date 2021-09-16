@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b63f5e8c8491fead6173b451384f51c",
+    "revision": "897bed0cceee7ff41ed6193afaf783de",
     "url": "/index.html"
   },
   {
-    "revision": "d0062f9bbf69d7f478ef",
+    "revision": "b540764b1ceb2c780554",
     "url": "/static/css/2.99f056d8.chunk.css"
   },
   {
-    "revision": "4ee215d4f07a65218fcf",
+    "revision": "ed9fb31bffddbfce28dd",
     "url": "/static/css/main.da75f4bb.chunk.css"
   },
   {
-    "revision": "d0062f9bbf69d7f478ef",
-    "url": "/static/js/2.49fedbb0.chunk.js"
+    "revision": "b540764b1ceb2c780554",
+    "url": "/static/js/2.ff827fec.chunk.js"
   },
   {
-    "revision": "4ee215d4f07a65218fcf",
-    "url": "/static/js/main.31e92d1f.chunk.js"
+    "revision": "ed9fb31bffddbfce28dd",
+    "url": "/static/js/main.998703a9.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -202,6 +202,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2ea4ef37d03b90722e07ad0d5fa1f921",
     "url": "/static/media/final2020_photo.2ea4ef37.jpg"
+  },
+  {
+    "revision": "5b95cf06b15d6709c8e1ea51491508fc",
+    "url": "/static/media/fintech2021.5b95cf06.pdf"
+  },
+  {
+    "revision": "c6d839fcc2a254e517a1b378294edc76",
+    "url": "/static/media/fintech2021_certificate.c6d839fc.pdf"
+  },
+  {
+    "revision": "4559fa5e02ad59e707dbd4515dd2452f",
+    "url": "/static/media/fintech_2021.4559fa5e.jpg"
   },
   {
     "revision": "98ea27021ed85e8cd6eb8e5888c97c27",
