@@ -153,6 +153,9 @@ const App = () => {
                   </p>
                   <ul className="white-text">
                     <li>
+                      Go
+                    </li>
+                    <li>
                       JavaScript
                     </li>
                     <li>
@@ -178,6 +181,14 @@ const App = () => {
                 </MDBCol>
                 <MDBCol size="10">
                   <h5 className="font-weight-bold mb-3"><mark>Карьера</mark></h5>
+                  <p className="white-text">
+                    Альфа-Банк
+                  </p>
+                  <ul className="white-text">
+                    <li>
+                      Старший разработчик
+                    </li>
+                  </ul>
                   <p className="white-text">
                     РФЯЦ-ВНИИТФ
                   </p>
@@ -222,7 +233,7 @@ const App = () => {
         <MDBAnimation reveal type="zoomIn">
           <hr style={{ border: '1px solid white' }}></hr>
           <MDBRow>
-          <MDBCol md="6">
+            <MDBCol md="6">
               <MDBView rounded>
                 <img src={fintech_2021} className="img-fluid z-depth-3" alt="" />
               </MDBView>
@@ -230,7 +241,7 @@ const App = () => {
               <div className="embed-responsive embed-responsive-16by9 z-depth-1-half">
                 <iframe title="final2020_presentation" width="560" height="315" src="https://www.youtube.com/embed/c73UUMhCvK0?controls=0&amp;start=5081s" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
-            </MDBCol>            
+            </MDBCol>
             <MDBCol md="6">
               <MDBRow className="mb-3">
                 <h3 className="font-weight-bold mb-3 white-text">FINTECH, 2021</h3>
@@ -245,8 +256,8 @@ const App = () => {
               </MDBRow>
               <MDBRow className="mb-3">
                 <p className="white-text">Разработка платформы обеспечения платежей арендаторов на базе технологии распределенных реестров и смарт-контрактов
-                Международный аэропорт Шереметьево — входит в ТОП-10 аэропортов-хабов Европы, крупнейший российский аэропорт по объёмам пассажирских и грузовых перевозок.
-                Помимо авиаперевозок аэропорт обеспечивает комфортное пребывание пассажиров в терминалах до и после вылета. В Шереметьево представлено множество кафе, ресторанов, магазинов и даже гостиниц. Все эти услуги предоставляются пассажирам независимыми компаниями, которые арендуют у Шереметьево площади в терминалах.</p>
+                  Международный аэропорт Шереметьево — входит в ТОП-10 аэропортов-хабов Европы, крупнейший российский аэропорт по объёмам пассажирских и грузовых перевозок.
+                  Помимо авиаперевозок аэропорт обеспечивает комфортное пребывание пассажиров в терминалах до и после вылета. В Шереметьево представлено множество кафе, ресторанов, магазинов и даже гостиниц. Все эти услуги предоставляются пассажирам независимыми компаниями, которые арендуют у Шереметьево площади в терминалах.</p>
               </MDBRow>
               <MDBRow className="mb-3">
                 <MDBCol size="1">
@@ -279,10 +290,10 @@ const App = () => {
                 <MDBCol size="11">
                   <h5 className="font-weight-bold mb-3 white-text"><a className="white-text" href="https://youtu.be/0bz7vet8e2M" rel="noopener noreferrer" target="_blank">Демонстрация UI</a></h5>
                 </MDBCol>
-              </MDBRow>              
+              </MDBRow>
             </MDBCol>
           </MDBRow>
-        </MDBAnimation>        
+        </MDBAnimation>
 
         <MDBAnimation reveal type="zoomIn">
           <hr style={{ border: '1px solid white' }}></hr>
@@ -485,7 +496,7 @@ const App = () => {
               </MDBRow>
             </MDBCol>
           </MDBRow>
-        </MDBAnimation>                
+        </MDBAnimation>
 
         <MDBAnimation reveal type="zoomIn">
           <hr style={{ border: '1px solid white' }}></hr>
